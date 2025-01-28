@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { SplitterModule } from 'primeng/splitter';
 
 @Component({
   selector: 'app-main-page',
   standalone: true,
-  imports: [],
+  imports: [SplitterModule],
   templateUrl: './main-page.component.html',
-  styleUrl: './main-page.component.css'
+  styleUrls: ['./main-page.component.css'],
 })
-export class MainPageComponent {
-
-}
+export class MainPageComponent {}

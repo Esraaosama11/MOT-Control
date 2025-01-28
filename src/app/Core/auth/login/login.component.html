@@ -1,0 +1,43 @@
+<div class="login-container">
+  <div class="login-card">
+    <img src="assets/images/images.png" alt="Logo" class="logo" />
+    <h2>وزارة النقل</h2>
+    <h3>جمهورية مصر العربية</h3>
+    <form [formGroup]="loginForm">
+      <div class="p-field">
+        <div class="input-icon-container">
+          <input
+            id="email"
+            type="text"
+            pInputText
+            formControlName="email"
+            placeholder=" اسم المستخدم"
+          />
+        </div>
+      </div>
+      <div class="p-field">
+        <div class="input-icon-container">
+          <i class="pi pi-eye input-icons"></i>
+          <input
+            id="password"
+            type="password"
+            pInputText
+            formControlName="password"
+            placeholder="كلمة المرور"
+          />
+        </div>
+      </div>
+
+      <div class="p-field">
+        <button
+          (click)="doLogin()"
+          pButton
+          type="submit"
+          label="تسجيل الدخول"
+          class="custom-btn"
+          [disabled]="loginForm.invalid"
+        ></button>
+      </div>
+    </form>
+  </div>
+</div>

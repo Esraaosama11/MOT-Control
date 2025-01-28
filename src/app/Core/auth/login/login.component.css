@@ -1,0 +1,121 @@
+body {
+  font-family: "Almarai", sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e9efef;
+}
+
+.login-card {
+  background-color: #fff;
+  width: 450px;
+  padding: 20px 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 32px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  width: 140px;
+  height: 125px;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 2rem;
+  color: #000;
+}
+
+h3 {
+  color: #000;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.p-field {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.input-icon-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-icons {
+  position: absolute;
+  right: 6rem;
+  color: #888;
+  font-size: 1.2rem;
+}
+
+input {
+  width: 60%;
+  padding: 0.8rem 2.5rem 0.8rem 0.8rem;
+  border: 2px solid #ddd;
+  border-radius: 1rem;
+  font-size: 1rem;
+  text-align: right;
+  border-color: #153e9b;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+input:focus {
+  outline: none;
+  color: #0056b3;
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+}
+
+input::placeholder {
+  color: #bbb;
+  font-size: 1rem;
+}
+
+button.custom-btn {
+  background-color: #234569;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 48%;
+}
+
+button.custom-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .login-card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  input,
+  button.custom-btn {
+    width: 80%;
+  }
+  .input-icons {
+    position: absolute;
+    right: 3rem;
+    color: #888;
+    font-size: 1.2rem;
+  }
+}

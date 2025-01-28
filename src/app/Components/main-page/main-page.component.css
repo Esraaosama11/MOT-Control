@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  direction: rtl;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.data-editor-btn {
+  background-color: #003399;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  color: rgb(0, 0, 0);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.notification-icon {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-text p {
+  margin: 0;
+  text-align: end;
+  color: #000917;
+}
+
+.navbar-logo {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.menu {
+  background-color: #003399;
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.menu-items li {
+  display: inline-block;
+  padding: 5px 22px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.menu-items .new-line {
+  width: 100%;
+  text-align: right;
+  margin-right: 0.5rem;
+}
+.menu-items .new-line i {
+  font-size: 14px;
+  padding-right: 5px;
+}
+.tasks {
+  padding: 20px;
+}
+
+.tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks-header h3,
+.tasks-header h4 {
+  margin: 0;
+}
+
+.all-tasks-btn {
+  background-color: #003399;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tasks-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tasks-table th,
+.tasks-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.tasks-table th {
+  background-color: #003399;
+  color: white;
+}
+
+.footer {
+  background-color: #e9efef;
+  color: #000;
+  padding: 40px;
+  text-align: center;
+}
+.footer p {
+  margin-right: 70rem;
+  font-size: small;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-right: 60rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links li {
+  margin: 0 20px;
+  font-size: 15px;
+}
+.border-line {
+  border-top: 3px solid #003399;
+  width: 100%;
+  margin: 20px 30px;
+}
